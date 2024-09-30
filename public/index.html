@@ -10,22 +10,23 @@
 <body>
     <!-- Header -->
     <header class="flex justify-evenly md:justify-between items-center px-6 min-h-16 bg-white drop-shadow-lg">
-        <a href="#" class="flex"></a>
-        <img class="flex" src="images/ic-logo.svg" alt="">
-        <div class="hidden md:flex subpixel-antialiased text-lg">
-            <span class="font-extrabold">COLMAR</span>
-            <span class="">ACADEMY</span>
-        </div>
+        <a href="#" class="flex">
+            <img class="flex" src="images/ic-logo.svg" alt="">
+            <div class="hidden md:flex subpixel-antialiased text-lg">
+                <span class="font-extrabold">COLMAR</span>
+                <span class="text-gray-600">ACADEMY</span>
+            </div>
         </a>
+
         <!-- Mobile Nav -->
         <a class="flex-shrink-0 md:hidden">
-            <img src="images/ic-on-campus.svg" alt="campus">
+            <img src="images/ic-on-campus.svg" alt="campus" class="min-h-[32px]">
         </a>
         <a class="flex md:hidden">
-            <img src="images/ic-online.svg" alt="online">
+            <img src="images/ic-online.svg" alt="online" class="min-h-[32px]">
         </a>
         <a class="flex md:hidden">
-            <img src="images/ic-login.svg" alt="login">
+            <img src="images/ic-login.svg" alt="login" class="min-h-[32px]">
         </a>
 
         <!-- Desktop Nav -->
@@ -35,11 +36,32 @@
             <a class="" href="#">Tour companies</a>
             <a class="" href="#">Sign in</a>
         </nav>
-
     </header>
 
     <!-- Main content -->
-    <Main></Main>
+    <Main>
+
+        <!-- Hero -->
+        <section id="hero" class="max-w-[1440px] mx-auto md:flex py-8 px-6 bg-stone-300 w-full items-center">
+            <img src="images/banner.jpg" alt="" class="md:w-[60%]">
+            <div class="md:w-[33%] md:ml-6">
+                <h1 class="text-5xl text-gray-700 py-8 font-bold">Learn something new everyday</h1>
+                <p class="text-base pb-6 font-bold text-gray-700">Lorem upsum dolor sit amet, consectetur adipiscing
+                    elit.</p>
+                <button class="bg-gray-600 text-white py-2 w-full">Start here</button>
+            </div>
+        </section>
+
+        <!-- Information -->
+        <section></section>
+
+        <!-- Course -->
+        <section></section>
+
+        <!-- Thesis -->
+        <section></section>
+
+    </Main>
 
     <!-- Footer -->
     <footer></footer>
